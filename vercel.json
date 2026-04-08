@@ -4,7 +4,7 @@
   "framework": "vite",
   "functions": {
     "api/run.py": {
-      "runtime": "python3.9"
+      "runtime": "vercel-python@4.3.1"
     }
   }
 }
