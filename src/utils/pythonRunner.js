@@ -1,4 +1,4 @@
-const API = 'http://localhost:5001/run'
+const API = import.meta.env.PROD ? '/api/run' : 'http://localhost:5001/run'
 
 export async function runPython(code) {
   const res = await fetch(API, {
